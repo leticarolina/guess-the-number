@@ -55,7 +55,7 @@ display: block; /*after wrapping button and label together display label as bloc
 button {
   background-color: #9cff00;;
   padding: 10px 20px;
-
+color: black;
 }
 
 /* centralize everything */
