@@ -63,10 +63,13 @@ color: black;
 /* Media Query Tablet or Smaller*/
 @media screen and (max-width: 768px) {
  body {
-    margin: 30px;
+    margin: 20px;
   
   }
   label{
     font-size: 32px;
+  }
+  button{
+    font-size: 20px;
   }
 }
