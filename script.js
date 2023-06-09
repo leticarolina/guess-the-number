@@ -7,7 +7,7 @@ const button = document.querySelector("#button");
 button.addEventListener("click", () => {
   if (input.value == 87) {
     resultText.innerText = "Right on the spot! You are a lucky one.";
-  } else if (input.value < 20) {
+  } else if (input.value < 35) {
     resultText.innerText = "Not there yet";
   } else if (input.value > 87) {
     resultText.innerText = "That was not a good guess";
