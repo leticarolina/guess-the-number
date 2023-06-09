@@ -1,0 +1,72 @@
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  max-height: 100vh;
+  background-color: black;
+  font-size: 40px;
+}
+
+
+#result{
+display:block;
+color: white;
+font-size: 25px;
+font-family: 'Cairo', sans-serif;
+font-weight: 300;
+position:absolute;
+width: 100%;
+display: flex;
+justify-content: center;
+
+}
+
+#right-result {
+  color: #9cff00;
+}
+
+
+label {
+  color: #9cff00;
+  font-family: 'Cairo', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+input {
+  padding: 10px 10px;
+  background-color: #e5ffe0;
+  
+}
+
+.parent/* centralizing the element */{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+transform: translate(-50%,-50%);
+}
+.parent label{
+display: block; /*after wrapping button and label together display label as block*/
+} 
+
+button {
+  background-color: #9cff00;;
+  padding: 10px 20px;
+
+}
+
+/* centralize everything */
+
+/* Media Query Tablet or Smaller*/
+@media screen and (max-width: 768px) {
+ body {
+    margin: 30px;
+  
+  }
+  label{
+    font-size: 32px;
+  }
+}
