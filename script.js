@@ -23,12 +23,10 @@ input.addEventListener("click", () => {
 // const userInput = input.value;
 // button.addEventListener("click", () => {
 //   switch (input.value) {
-//     case "hi":
+//     case 88:
 //       console.log("Right on the spot! You are a lucky one.");
 //       break;
 //     default:
 //       console.log("Try again");
 //   }
 // });
-
-// console.log("hi" + input);
